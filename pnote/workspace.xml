@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="784a24fe-eb61-49a5-8a6a-9552a418a793" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2ddcVqSct9VMC1GWQYHTxivn040" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Armstrong Number.executor": "Run",
+    "Python.Break and continue.executor": "Run",
+    "Python.Brk and cnte.executor": "Run",
+    "Python.For Loop.executor": "Run",
+    "Python.If in List Comprehension.executor": "Run",
+    "Python.Linear Search.executor": "Run",
+    "Python.List Again and List[Nested].executor": "Run",
+    "Python.List Comprehension.executor": "Run",
+    "Python.List.executor": "Run",
+    "Python.List[Nested].executor": "Run",
+    "Python.Min Max Sum.executor": "Run",
+    "Python.Number and last digit of Number.executor": "Run",
+    "Python.Print & Cincatenation.executor": "Run",
+    "Python.Print & Concatenation.executor": "Run",
+    "Python.Sring Reversing.executor": "Run",
+    "Python.String.executor": "Run",
+    "Python.Tuple.executor": "Run",
+    "Python.ascii value.executor": "Run",
+    "Python.break and continue.executor": "Run",
+    "Python.count n of digit.executor": "Run",
+    "Python.dictionary.executor": "Run",
+    "Python.exception handling.executor": "Run",
+    "Python.factorial.executor": "Run",
+    "Python.fibonacci series.executor": "Run",
+    "Python.file operations.executor": "Run",
+    "Python.format.executor": "Run",
+    "Python.function.executor": "Run",
+    "Python.global & local.executor": "Run",
+    "Python.input list.executor": "Run",
+    "Python.list & for loop.executor": "Run",
+    "Python.list 2.executor": "Run",
+    "Python.list comprehension.executor": "Run",
+    "Python.logical operator.executor": "Run",
+    "Python.loop.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.matrix.executor": "Run",
+    "Python.namta.executor": "Run",
+    "Python.nested if in List Comprehension.executor": "Run",
+    "Python.nested list.executor": "Run",
+    "Python.pattern.executor": "Run",
+    "Python.print.executor": "Run",
+    "Python.queue.executor": "Run",
+    "Python.random function.executor": "Run",
+    "Python.random.executor": "Run",
+    "Python.range.executor": "Run",
+    "Python.reverse a number.executor": "Run",
+    "Python.rough.executor": "Run",
+    "Python.series by loop.executor": "Run",
+    "Python.set & dictionary.executor": "Run",
+    "Python.set.executor": "Run",
+    "Python.stack and queue.executor": "Run",
+    "Python.string.executor": "Run",
+    "Python.transpose matrix.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Safwan Ibrahim/PyCharm Community Edition 2023.3.3/Problem Solving Python",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Safwan Ibrahim\PyCharm Community Edition 2023.3.3\Python Note\pythonProject\.idea\.config" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-d68999036c7f-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.14475.56" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="784a24fe-eb61-49a5-8a6a-9552a418a793" name="Changes" comment="" />
+      <created>1710341422367</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1710341422367</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pythonProject/.idea/.config/dictionary.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

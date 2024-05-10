@@ -1,0 +1,23 @@
+#n = int(input())
+from fractions import Fraction
+N1,s1,D1,s2,N2,s3,D2=input().split()
+N1=int(N1)
+N2=int(N2)
+D1=int(D1)
+D2=int(D2)
+if s2=="+":
+    p1=(N1*D2+N2*D1)
+    p2=(D1*D2)
+    P1=str(p1)
+    P2=str(p2)
+    print(P1+"/"+P2,end=" = ")
+    print(Fraction(p1,p2))
+if s2=="-":
+    p1 =(N1*D2-N2*D1)
+    p2 =(D1*D2)
+    P1 = str(p1)
+    P2 = str(p2)
+    print(P1 + "/" + P2, end=" = ")
+    print(Fraction(p1, p2))
+#Multiplication = (N1*N2)/(D1*D2)
+#Division= (N1/D1)/(N2/D2)
