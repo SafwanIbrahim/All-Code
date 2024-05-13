@@ -8,5 +8,5 @@ int main()
     double a= 32;
     double b = 5;
     double c = pow(a,(1/b));
-    cout<<c;
+    cout<<53;
 }

@@ -2,7 +2,7 @@
 
 int main ()
 {
-    char x='A',z = '9';
+    char x='1',z = '9';
     int y = (int)x;
     int i = (int)z;
     int n = 65;

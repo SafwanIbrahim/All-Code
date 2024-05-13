@@ -14,5 +14,4 @@ for x in range(n):
         print(b%6,"BALL")
     elif b%6>1:
         print(b%6,"BALLS")
-    if b==0:
-        print("0 BALL")
+

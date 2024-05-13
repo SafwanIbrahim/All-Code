@@ -24,6 +24,7 @@
 #     print("NO")
 # s="safwan"
 # print(s[::-1])
-lis=[1,2,3]
-lis.remove(lis[0])
-print(lis)
+# lis=[1,2,3]
+# lis.remove(lis[0])
+# print(lis)
+

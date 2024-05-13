@@ -3,7 +3,7 @@
 
 int main ()
 {
-    char* string ="nothing";  // actually lenth is 7+1
+    char* string ="nothing";  // actually length is 7+1
     char string2[8];
     char string3[122]="Nothing";
     char string4[]=" special";
