@@ -7,7 +7,7 @@ int check_kth_bit (int x , int k)
     return ( x >> k ) & 1;
 }
 int count_on_bit(int x)
-{   
+{
     int count = 0;
     for (int i = 0; i <= 31; i++)
     {
@@ -52,10 +52,11 @@ int main()
   
     cout<<bit_turn_off(y,1)<<endl;
 
-    cout <<bit_change(10,1)<<endl;
+    cout << bit_change(10,1)<<endl;
 
-    cout <<bit_change(8,1)<<endl;
+    cout << bit_change(8,1)<<endl;
 
-    cout<<power_of_2(31);
+    cout << power_of_2(31);
+
 
 }

@@ -13,15 +13,15 @@ int main()
 
     int res4 = (~10);  // not
 
-    int res5 = (5 << 1); // leftshift
+    int res5 = (5 << 2); // leftshift
 
     int res6 = (1 << 5);  // 5 times leftshift means 1*(2 to the power 5)
 
     int res7 = (10 >> 1); // right shift means 10*(2 to the power minus 1)  
 
     int res8 = (11 >> 2); // right shift means 11*(2 to the power minus 2) floor division means 11 //(2 to the power 4)
-
-    int res9 = (1 << 31);
+    
+    int res9 = (1 << 30); // 
 
     cout << res1 <<'\n'; 
     cout << res2 <<'\n'; 
