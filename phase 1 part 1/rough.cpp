@@ -11,19 +11,28 @@ int main()
     cout << n << endl<< endl;
 
 
-    for (int i = 0 ; i < n; i++)    // i = for every individual single l
+    for (int l = 0 ; l < n; l++)    // i = for every individual single l
     {
-        for (int j = i; j < n; j++)
+        for (int r = l; r < n; r++)
         {
-            for (int k = i ; k <= j; k++) 
+            for (int i = l ; i <= r; i++) 
             {
-                cout << arr[k] << " ";
+                cout << arr[i] << " ";
             }
             cout << endl;
         }
     }
 
-    cout << (1 << 31) - 1 << endl;
+    //cout << (1 << 31) - 1 << endl;
+    //cout << (1 << 30) -1 + (1 << 30) << endl; // to avoid overflow warning
+
+    //cout << INT_MAX - pow(10,9);
+
+    cout << (int) 'a' << " " << (int)'z' << endl;
+    cout << (int) ',' - (int) ' ' << endl;
+    cout << (3 * 1000000000 ) << endl;
+
+
     
     return 0;
 }

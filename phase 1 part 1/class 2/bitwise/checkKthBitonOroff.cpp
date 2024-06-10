@@ -9,7 +9,7 @@ int check_kth_bit (int x , int k)
 
 int main ()
 {   
-    cout<< check_kth_bit(11,3)<<endl;
+    cout<< check_kth_bit(1000000,22)<<endl;
     cout<< check_kth_bit(11,2)<<endl;
 
     return 0;

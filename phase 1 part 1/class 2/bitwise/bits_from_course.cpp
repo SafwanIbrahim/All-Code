@@ -101,6 +101,12 @@ int main() {
   cout << "15 after unsetting 2nd bit: " << unset_kth_bit(15, 2) << '\n'; // Output: 11
   cout << "11 after toggling 3rd bit: " << toggle_kth_bit(x, 3) << '\n'; // Output: 3
   cout << "Is 8 a power of 2: " << check_power_of_2(8) << '\n'; // Output: 1 (true)
+  
+  for (int k = 0; k < 32; k++) {
+    if (check_kth_bit(1000000000, k)) {
+      cout << k << endl;
+    }
+  }
 
   return 0;
 }
