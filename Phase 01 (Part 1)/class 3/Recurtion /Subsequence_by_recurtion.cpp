@@ -1,10 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int n, arr[200];
-bool is_taken[200];
-
-void rec(int pos)
+int n, arr[30];
+bool is_taken[30];
+// every rec has two rec call. 
+void rec(int pos)  // for every base case (or for every return) it will print subsequnce ; so, it will call base case n^2 times
 {
     if (pos > n)
     {

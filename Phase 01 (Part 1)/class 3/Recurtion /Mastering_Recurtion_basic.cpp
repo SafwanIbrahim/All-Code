@@ -1,5 +1,13 @@
 #include <bits/stdc++.h>
 using namespace std;
+// every test has 2 rec call; for every test it will give print 2^n times;
+void test(int n) // but for first test it will give 2-1 print so ultimately it will print 2^n - 1 times
+{   
+    if (n == 0) return ;
+    cout << n << endl;
+    test(n-1);
+    test(n-1);
+}
 
 
 void pre_in_post(int n)
@@ -11,6 +19,7 @@ void pre_in_post(int n)
     pre_in_post(n-1);
     cout << "Post : " << n << endl;
 }
+
 void pre_in_post2(int n)
 {
     if (n == 0) return ;
@@ -27,7 +36,7 @@ int optimized_maze(int er,int ec)
     return optimized_maze(er-1,ec) + optimized_maze(er,ec-1);
 }
 
-int maze(int er, int ec, int cr = 1, int cc = 1) // e = ending c = current r/c = row/column
+int maze(int er, int ec, int cr = 1, int cc = 1) // e = ending ; c = current ; r/c = row/column
 {   
     if (cr == er || cc == ec) return 1;
     return maze(er,ec,cr+1,cc) + maze(er,ec,cr,cc+1);
@@ -108,5 +117,7 @@ int main()
     cout << optimized_maze(4,4) << endl;
     pre_in_post(1);
     pre_in_post2(3);
+    cout << endl;
+    test(3);
     return 0;
 }

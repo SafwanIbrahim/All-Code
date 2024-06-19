@@ -10,8 +10,9 @@ int main()
     cout << round(a/b) << endl;
     cout << floor(a/b) << endl;
     cout << ceil(a/b) << endl;
+    cout << std::gcd(12,18);
 
-    // floor wihout double :
+    // ceil wihout double :
 
     cout << (a1 - 1) / b + 1 << endl;
     return 0;
