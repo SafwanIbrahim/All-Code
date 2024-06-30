@@ -1,7 +1,8 @@
-    #include<bits/stdc++.h>
-    using namespace std;
+#include<bits/stdc++.h>
+using namespace std;
 
-    int main() {
+int main() 
+{
     // abs
     int num_1 = -10;
     int abs_result = abs(num_1);
@@ -113,4 +114,4 @@
     cout << '\n';
     cout << "Is the array sorted? " << is_array_sorted << '\n';
     return 0;
-    }
+}
