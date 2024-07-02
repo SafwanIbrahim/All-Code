@@ -25,9 +25,11 @@ int main()
     double num_3 = 1000.0;
     double log_result = log(num_3);
     double log2_result = log2(num_3);
+    int log2_result_2 = __lg(1000);
     double log10_result = log10(num_3);
     cout << "Natural logarithm of " << num_3 << " is: " << log_result << '\n';
     cout << "Base-2 logarithm of " << num_3 << " is: " << log2_result << '\n';
+    cout << "Base-2 logarithm of " << num_3 << " is: " << log2_result_2 << '\n';
     cout << "Base-10 logarithm of " << num_3 << " is: " << log10_result << '\n';
 
 

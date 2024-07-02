@@ -19,7 +19,7 @@ int divisors(int n)
     if (sqrt(n) - int(sqrt(n)) == 0) ans++;
     for (int i = 1; i*i < n; i++)
     {   
-        cout << "in" << endl;
+        cout << "in" << endl; 
         if (n % i == 0)
         {
             ans+= 2;

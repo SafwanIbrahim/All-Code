@@ -1,11 +1,3 @@
 {
-    "files.associations": {
-        "barrier": "cpp",
-        "latch": "cpp",
-        "limits": "cpp",
-        "semaphore": "cpp",
-        "valarray": "cpp",
-        "algorithm": "cpp",
-        "__locale": "cpp"
-    }
+    "cmake.clearOutputBeforeBuild": false
 }
