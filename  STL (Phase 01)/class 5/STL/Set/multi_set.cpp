@@ -36,7 +36,6 @@ int32_t main()
         cout << *i <<" ";
     }  
     cout << endl;
-
     
     return 0;
 } 

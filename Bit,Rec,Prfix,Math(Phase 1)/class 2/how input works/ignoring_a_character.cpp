@@ -25,8 +25,7 @@ int main()
 
 
 
-    for (int i = 1; i <= n ; i++)   
-    {
+    for (int i = 1; i <= n ; i++) {
         cin.getline(s,101);
         cout<< s;
     }

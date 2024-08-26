@@ -5,14 +5,10 @@ using namespace std;
 #define endl '\n'
 
 int32_t main()
-{
-    ios_base::sync_with_stdio(0);
-    cin.tie(0);
-    int n ; cin >> n;
-    for (int i = 1; i <= 10; i++)
-    {
-        cout << i << " x " << n << " = " << n*i << endl;
+{   
+    set<string>st;
+    string s;
+    while(cin >> s) {
+        st.insert(s);
     }
-
-    return 0;
 }

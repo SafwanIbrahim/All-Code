@@ -17,16 +17,16 @@ int32_t main()
 
     cout << endl;
 
-    v.resize(7);
+    v.resize(7); // it will assinged not assigned eliment as 0
 
-    for (int x : v) // it will assinged none assigned eliment as 0
+    for (int x : v) 
     {
         cout << x << " ";
     }
 
     cout << endl;
 
-    v.resize(9,7); // it will assinged none assigned eliment as 7;
+    v.resize(9,7); // it will assinged not assigned eliment as 7;
 
     for (int x : v)
     {

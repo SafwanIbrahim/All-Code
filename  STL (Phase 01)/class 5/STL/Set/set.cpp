@@ -37,8 +37,8 @@ int32_t main()
     cout << s.count(12) << endl; // it will return 0 or 1
 
     set<int>::iterator i = s.lower_bound(47); // it will return the itrtr of this eliment whose value is at least 47 or greater
-    // if it find 47 it will return the iterator of first eliment which has value 47 else it will return greater 
-    set<int>::iterator i2 = s.lower_bound(47); // it will return the itrtr of this eliment whose value is strictly greater than 47
+    // if it finds 47 it will return the iterator of first eliment which has value 47 else it will return greater 
+    set<int>::iterator i2 = s.upper_bound(47); // it will return the itrtr of this eliment whose value is strictly greater than 47
     // if we don't find eliment then upper_bound and lower_bound is same 
     // complexity O(log n)
 

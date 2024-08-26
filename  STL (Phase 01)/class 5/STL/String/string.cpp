@@ -30,6 +30,7 @@ int32_t main()
     int i = s.find('a'); // it will return first index that has char 'a';
     int i2 = s.find("sa"); // O(n^2) // from which index this substring started ;
     int i3 = s.rfind('s'); // it will return last occurance of s; // rfind = reverse find
+    auto it = find(s.begin(),s.end(), " "); // it will return itaretor
 
     cout << i << endl;
     cout << i2 << endl;

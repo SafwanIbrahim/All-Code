@@ -11,14 +11,11 @@ int32_t main()
 
     int arr[10];
     int* p = &arr[0];
-    for (int i = 0; i < 10; i++)
-    {   
-        *(p+i) = 2 + i;
-        
-
+    for (int i = 0; i < 10; i++) {   
+        *(p+i) = 2 ;     
     }
-    for (int i = 0; i < 10; i++)
-    {
+
+    for (int i = 0; i < 10; i++) {
         cout << arr[i] << " ";
     }
     

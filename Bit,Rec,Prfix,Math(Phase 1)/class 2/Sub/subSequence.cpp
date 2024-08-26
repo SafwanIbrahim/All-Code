@@ -13,9 +13,9 @@ int main()
 
     // generating all sub sequence :
 
-    for (int mask = 0; mask < (1 << n); mask++ )
+    for (int mask = 0; mask < (1 << n); mask++)
     {
-        for (int index = 0; index <n ; index++)
+        for (int index = 0; index < n ; index++)
         {
             if ((mask >> index) & 1 ) 
             {

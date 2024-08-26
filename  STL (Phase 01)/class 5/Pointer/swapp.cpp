@@ -17,7 +17,5 @@ int32_t main()
     int x = 10, y = 15;
     swapp(&x,&y);
     cout << x << " " << y << endl;
-
-
     return 0;
 } 

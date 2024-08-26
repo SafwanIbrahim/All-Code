@@ -18,19 +18,19 @@ int32_t main()
 
 
 
-    int* p = &arr[0];
-    p += 4 ;
+    // int* p = &arr[0];
+    // p += 4 ;
 
-    cout << *p << endl; // pointer was pointing 0-th index then we added 4; so it is arr[4];
-    cout << arr[4] << endl;
+    // cout << *p << endl; // pointer was pointing 0-th index then we added 4; so it is arr[4];
+    // cout << arr[4] << endl;
     
-    cout << endl;
-    ll arr2[10];  // difference are 8 ;
+    // cout << endl;
+    // ll arr2[10];  // difference are 8 ;
      
-    for (int i = 0; i < 2; i++)
-    {
-        cout << &arr2[i] << endl;
-    }
+    // for (int i = 0; i < 2; i++)
+    // {
+    //     cout << &arr2[i] << endl;
+    //}
     
     return 0;
 } 

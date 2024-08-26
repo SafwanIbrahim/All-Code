@@ -1,9 +1,3 @@
- /*
-  *   
-  *   Safwan Ibrahim (c) 2024 ;
-  * 
-  */
-
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long

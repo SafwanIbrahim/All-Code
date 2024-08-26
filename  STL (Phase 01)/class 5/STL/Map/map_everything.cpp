@@ -9,7 +9,7 @@ int main()
     mp.insert({3, "three"});
 
     // Function: [key] (access)
-    cout << mp[4] << '\n'; // Output: "four"
+    cout << mp[4] << '\n'; // Output: "four"f
 
     // Function: [key] (update)
     mp[2] = "twwwwo";
@@ -26,13 +26,11 @@ int main()
         cout << "Element not found.\n";
     }
 
-
     // Function: size
     cout << "Size of the map: " << mp.size() << '\n';
 
     // Function: empty
     cout << "Is the map empty? " << (mp.empty() ? "Yes" : "No") << '\n';
-
 
     // Function: lower_bound
     auto it_lower = mp.lower_bound(2);

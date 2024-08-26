@@ -8,18 +8,16 @@ long long prefix_sum[N];
 int main() 
 {
     int n; cin >> n;
-    for (int i = 1; i <= n; i++) 
-    {
+    for (int i = 1; i <= n; i++) {
         cin >> a[i];
     }
-    prefix_sum[0] = 0;
-    for (int i = 1; i <= n; i++) 
-    {
+
+    for (int i = 1; i <= n; i++) {
         prefix_sum[i] = prefix_sum[i - 1] + a[i];
     }
+    
     int q; cin >> q;
-    while (q--) 
-    {
+    while (q--) {
         int l, r; cin >> l >> r;
         l++; r++; // 1 based indexing
         long long sum = 0;
