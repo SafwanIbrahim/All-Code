@@ -17,7 +17,7 @@ int32_t main()
     }
     cout << sum << endl;
     clock_t end = clock();
-    cout << 1.0 * (end - start )/ CLOCKS_PER_SEC << endl;
+    cout << 1.0 * (end - start)/ CLOCKS_PER_SEC << endl;
     
     return 0;
 } 

@@ -11,9 +11,8 @@ int32_t main()
 
     int x,n; cin >> x >> n;
     vector<int>v(n);
-    for (int i = 0; i < n; i++) {
-        int a; cin >> a;
-        v[i] = a;
+    for (auto &a : v) {
+        cin >> a;
     }
 
     sort(v.rbegin(),v.rend());

@@ -8,6 +8,7 @@ const int N = 2e5+7;
 string s,p;
 int arr[N];
 
+
 bool ok(int l) {
     string temp = "";
     vector<bool>ase(s.size(),false);

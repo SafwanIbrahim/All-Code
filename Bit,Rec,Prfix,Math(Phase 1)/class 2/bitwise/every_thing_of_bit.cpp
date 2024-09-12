@@ -1,45 +1,34 @@
 #include <bits/stdc++.h>
-
 using namespace std;
 
-int check_kth_bit (int x , int k)
-{
+int check_kth_bit (int x , int k) {
     return ( x >> k ) & 1;
 }
-int count_on_bit(int x)
-{
+int count_on_bit(int x) {
     int count = 0;
-    for (int i = 0; i <= 31; i++)
-    {
-        if (check_kth_bit(x,i)== 1) 
-        {
+    for (int i = 0; i <= 31; i++) {
+        if (check_kth_bit(x,i)== 1) {
             count++;
         }
     }
     return count;
 }
 
-int  bit_turn_on(int x , int n)
-{
+int  bit_turn_on(int x , int n) {
     return (1 << n) | x;
 }
 
-int  bit_turn_off(int x , int n)
-{
+int  bit_turn_off(int x , int n) {
     return (~(1 << n)) & x;
 }
-int  bit_change(int x , int n)
-{
+int  bit_change(int x , int n) {
     return (1 << n) ^ x;
 }
-bool power_of_2 (int x)
-{
-    if (count_on_bit(x) == 1) 
-    {
+bool power_of_2 (int x) {
+    if (count_on_bit(x) == 1) {
         return true;
     }
-    else 
-    {
+    else {
         return false;
     }
 }

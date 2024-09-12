@@ -3,6 +3,7 @@ using namespace std;
 
 #define ll long long
 #define endl '\n'
+
 const int N = 1e6+7;
 int arr[N];
 
@@ -47,9 +48,10 @@ int32_t main()
     }
 
     vector<int>v = merge_sort(0,n-1);
-    for (int i = 0; i < n; i++) {
-        cout << v[i] << " ";
-    }
+    // for (int i = 0; i < n; i++) {
+    //     cout << v[i] << " ";
+    // }
+    for (auto x : v) cout << x << " ";
     cout << endl;
 
     return 0;
